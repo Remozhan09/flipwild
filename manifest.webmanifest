@@ -1,7 +1,7 @@
 {
   "name": "FLIPWILD",
   "short_name": "FLIPWILD",
-  "description": "Рогалик в стиле мультфильмов 30-х: волчонок Рифф против Помехи внутри старого телевизора.",
+  "description": "A 1930s-cartoon roguelite: Riff the wolf cub vs. the Static inside an old TV. / Рогалик в стиле мультфильмов 30-х.",
   "id": "./",
   "start_url": "./",
   "scope": "./",
