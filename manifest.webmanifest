@@ -1,0 +1,70 @@
+{
+  "name": "FLIPWILD",
+  "short_name": "FLIPWILD",
+  "description": "A 1930s-cartoon roguelite: Riff the wolf cub vs. the Static inside an old TV. / Рогалик в стиле мультфильмов 30-х.",
+  "id": "./",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": [
+    "fullscreen",
+    "standalone"
+  ],
+  "orientation": "any",
+  "background_color": "#120822",
+  "theme_color": "#120822",
+  "lang": "ru",
+  "categories": [
+    "games"
+  ],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "shot-title.png",
+      "sizes": "540x1169",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "FLIPWILD"
+    },
+    {
+      "src": "shot-hub.png",
+      "sizes": "540x1169",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Backstage / Закулисье"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "FLIPWILD",
+      "short_name": "Play",
+      "url": "./",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
