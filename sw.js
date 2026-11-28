@@ -1,7 +1,7 @@
 // FLIPWILD — офлайн-кэш. Игра открывается мгновенно и без интернета;
 // страницу игры сперва спрашиваем у сайта (3 сек), без сети — берём из кэша; остальное — из кэша с фоновым обновлением.
 // Новая версия ставится сразу; игра сверяет version.json и перезагружается на титуле или в хабе (во время забега — ждёт).
-const CACHE = 'flipwild-202611280659', ASSETS = 'flipwild-assets';
+const CACHE = 'flipwild-202611281623', ASSETS = 'flipwild-assets';
 const CORE = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png', './icon-180.png', './icon-maskable-512.png'];
 self.addEventListener('install', e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE.map(u => new Request(u, { cache: 'reload' })))).then(() => self.skipWaiting())); });
 // при обновлении: старые кэши удаляем, все открытые окна забираем под себя и просим перезапуститься.
